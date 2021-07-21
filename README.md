@@ -113,21 +113,27 @@ We can see that the Pytesseract OCR has recognized majority of the text regions 
 
 
 ![Image](OCRimages/img7.jpg)
+
 Sample Image
 
 ![Image](OCRimages/img8.jpg)
+
 Pytesseract OCR output
 
 ![Image](OCRimages/img9.jpg)
+
 Pytesseract output after preprocessing through Greyscaling
 
 ![Image](OCRimages/img10.jpg)
+
 Pytesseract output after preprocessing with Greyscaling, thresholding and eroding
 
 ![Image](OCRimages/img11.jpg)
+
 EAST algorithm text detection output with bounded Regions of Interest (ROI)
 
 ![Image](OCRimages/img12.jpg)
+
 Pytesseract OCR text recognition at ROI detected by the EAST detection algorithm
 
 ## RESULT AND DISCUSSION
