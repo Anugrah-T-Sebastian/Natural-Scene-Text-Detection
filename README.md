@@ -114,27 +114,27 @@ We can see that the Pytesseract OCR has recognized majority of the text regions 
 
 ![Image](OCRimages/img7.jpg)
 
-Sample Image
+Fig. Sample Image
 
 ![Image](OCRimages/img8.jpg)
 
-Pytesseract OCR output
+Fig. Pytesseract OCR output
 
 ![Image](OCRimages/img9.jpg)
 
-Pytesseract output after preprocessing through Greyscaling
+Fig. Pytesseract output after preprocessing through Greyscaling
 
 ![Image](OCRimages/img10.jpg)
 
-Pytesseract output after preprocessing with Greyscaling, thresholding and eroding
+Fig. Pytesseract output after preprocessing with Greyscaling, thresholding and eroding
 
 ![Image](OCRimages/img11.jpg)
 
-EAST algorithm text detection output with bounded Regions of Interest (ROI)
+Fig. EAST algorithm text detection output with bounded Regions of Interest (ROI)
 
 ![Image](OCRimages/img12.jpg)
 
-Pytesseract OCR text recognition at ROI detected by the EAST detection algorithm
+Fig. Pytesseract OCR text recognition at ROI detected by the EAST detection algorithm
 
 ## RESULT AND DISCUSSION
 Tesseract works best when there is a clean segmentation of the foreground text from the background. In practice, it can be extremely challenging to guarantee these types of setup. There are a variety of reasons you might not get good quality output from Tesseract like if the image has noise on the background. The better the image quality (size, contrast, lightning), the better the recognition result. It requires a bit of preprocessing to improve the OCR results, images need to be scaled appropriately, have as much image contrast as possible, and the text must be horizontally aligned. Tesseract OCR is quite powerful but does have the following limitations.
